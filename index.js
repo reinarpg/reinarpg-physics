@@ -768,8 +768,8 @@ function getEnchantmentLevel (mcData, enchantmentName, enchantments) {
 
 class PlayerState {
   constructor (bot, control) {
-    const mcData = require('minecraft-data')(bot.version)
-    const nbt = require('prismarine-nbt')
+    const mcData = require('reinarpg-data')(bot.version)
+    const nbt = require('reinarpg-nbt')
 
     // Input / Outputs
     this.pos = bot.entity.position.clone()

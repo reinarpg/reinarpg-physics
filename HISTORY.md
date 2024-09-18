@@ -65,7 +65,7 @@
 
 ### 1.0.7
 
-* Use prismarine-nbt to cleanly handle nbt + check for name enchantments post-flattening
+* Use reinarpg-nbt to cleanly handle nbt + check for name enchantments post-flattening
 
 ### 1.0.6
 

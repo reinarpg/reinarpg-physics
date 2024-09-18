@@ -30,13 +30,13 @@
   "devDependencies": {
     "expect": "^27.3.1",
     "mocha": "^10.0.0",
-    "prismarine-block": "^1.7.3",
+    "reinarpg-block": "github:reinarpg/reinarpg-block",
     "prismarine-physics": "file:./",
     "standard": "^17.0.0"
   },
   "dependencies": {
-    "minecraft-data": "^3.0.0",
-    "prismarine-nbt": "^2.0.0",
+    "reinarpg-data": "github:reinarpg/reinarpg-data",
+    "reinarpg-nbt": "github:reinarpg/reinarpg-nbt",
     "vec3": "^0.1.7"
   }
 }

@@ -16,8 +16,8 @@ Provide the physics engine for minecraft entities
 const { Physics, PlayerState } = require('prismarine-physics')
 const { Vec3 } = require('vec3')
 
-const mcData = require('minecraft-data')('1.13.2')
-const Block = require('prismarine-block')('1.13.2')
+const mcData = require('reinarpg-data')('1.13.2')
+const Block = require('reinarpg-block')('1.13.2')
 
 const physics = Physics(mcData, world)
 const controls = {
@@ -64,7 +64,7 @@ See `examples/` for more.
 
 #### simulatePlayer(playerState, world)
 - playerState : instance of the PlayerState class
-- world : interface with a function `getBlock(position)` returning the prismarine-block at the given position
+- world : interface with a function `getBlock(position)` returning the reinarpg-block at the given position
 
 ### PlayerState
 

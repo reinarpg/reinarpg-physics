@@ -4,8 +4,8 @@ const { Physics, PlayerState } = require('prismarine-physics')
 const { Vec3 } = require('vec3')
 const expect = require('expect')
 
-const mcData = require('minecraft-data')('1.13.2')
-const Block = require('prismarine-block')('1.13.2')
+const mcData = require('reinarpg-data')('1.13.2')
+const Block = require('reinarpg-block')('1.13.2')
 
 const fakeWorld = {
   getBlock: (pos) => {
